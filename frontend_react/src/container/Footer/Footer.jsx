@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
-import { RiMailDownloadFill } from 'react-icons/ri';
 
 import './Footer.scss';
 
@@ -43,7 +42,6 @@ const Footer = () => {
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
-          {/* <RiMailDownloadFill /> */}
           <img src={images.email} alt="email" />
           <a href="mailto:penko032@gmail.com" className="p-text">penko032@gmail.com</a>
         </div>
