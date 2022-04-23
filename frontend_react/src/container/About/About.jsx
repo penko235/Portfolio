@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 import { images } from '../../constants';
+import { IoMdSchool } from "react-icons/io";
 import './About.scss';
 import { urlFor, client } from '../../client';
 
@@ -26,7 +27,7 @@ const About = () => {
   
   return (
     <>
-    <h2 className='head-text'>I know that <span>Good Development</span> <br /> Means <span>Good Business</span></h2>
+    <h2 className='head-text'> <IoMdSchool /> <span>Education</span> Section</h2>
 
     <div className='app__profiles'>
       {abouts.map((about, index) => (
