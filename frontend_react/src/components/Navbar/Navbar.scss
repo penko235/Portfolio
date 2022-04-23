@@ -19,7 +19,7 @@
 
   img {
     max-width: 90px;
-    height: 20px;
+    height: 30px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;
@@ -148,6 +148,7 @@
       display: none;
     }
   }
+
   @media screen and (min-width: 900px) {
     display: none;
   }
